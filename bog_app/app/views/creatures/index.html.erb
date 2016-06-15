@@ -1,0 +1,8 @@
+<h1>Index of Swamp Creatures</h1>
+
+<% @creatures.each do |creature| %>
+  <p>
+    <strong>Name:</strong> <%= creature.name %>
+    <strong>Description:</strong> <%= creature.description %>
+  </p>
+<% end %>

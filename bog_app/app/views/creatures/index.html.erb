@@ -1,8 +1,11 @@
-<h1>Index of Swamp Creatures</h1>
+<!-- INDEX FOR ALL OF OUR SWAMP CREATURES -->
+<div class="container">
+  <h1>Index of Swamp Creatures</h1>
 
-<% @creatures.each do |creature| %>
-  <p>
-    <strong>Name:</strong> <%= creature.name %>
-    <strong>Description:</strong> <%= creature.description %>
-  </p>
-<% end %>
+  <% @creatures.each do |creature| %>
+    <p>
+      <strong>Name:</strong> <%= creature.name %>
+      <strong>Description:</strong> <%= creature.description %>
+    </p>
+  <% end %>
+</div>

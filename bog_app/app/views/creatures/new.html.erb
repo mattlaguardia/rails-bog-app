@@ -1,0 +1,10 @@
+<!-- NEW FORM FOR SWAMP CREATURES -->
+<div class="container">
+  <%= form_for :creature, url: "/creatures", method: "post" do |f| %>
+    <p>Name:</p>
+    <%= f.text_field :name %><br>
+    <p>Description:</p>
+    <%= f.text_area :description %><br>
+    <%= f.submit "Save New Creature" %>
+  <% end %>
+</div>

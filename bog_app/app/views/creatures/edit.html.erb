@@ -1,0 +1,10 @@
+<!-- EDIT FORM -->
+<div class="container">
+  <%= form_for @creature do |f| %>
+    <p>Name:</p>
+    <%= f.text_field :name %><br>
+    <p>Description:</p>
+    <%= f.text_area :description %><br>
+    <%= f.submit "Save Updates" %>
+  <% end %>
+</div>
